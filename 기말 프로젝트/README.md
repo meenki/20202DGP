@@ -44,3 +44,15 @@
 
 #### * 2DGP에서 배울 것으로 기대되는 기술
 - Python 언어 활용 능력
+
+## 5. 게임 개요
+
+![게임 개요](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C2.PNG?raw=true)
+
+## 6. 게임 플로우
+
+![게임 플로우](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C3.PNG?raw=true)
+
+## 7. 개발 정보
+
+![개발 정보](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C3.PNG?raw=true)
