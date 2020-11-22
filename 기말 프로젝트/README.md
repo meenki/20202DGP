@@ -4,7 +4,7 @@
 * **목적** : 몰려오는 적들을 막는 TD(TOWER DEFENCE)게임
 * **방법** : 주사위를 배치하고 합성, 강화를 통해 적들을 저지한다.
 
-![예시 이미지](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/sample_image.png?raw=true)
+![예시 이미지](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/README/sample_image.png?raw=true)
 **인게임 이미지**
 
 ## 2. GameState
@@ -47,12 +47,12 @@
 
 ## 5. 게임 개요
 
-![게임 개요](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C2.PNG?raw=true)
+![게임 개요](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/README/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C2.PNG?raw=true)
 
 ## 6. 게임 플로우
 
-![게임 플로우](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C3.PNG?raw=true)
+![게임 플로우](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/README/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C3.PNG?raw=true)
 
 ## 7. 개발 정보
 
-![개발 정보](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C4.PNG?raw=true)
+![개발 정보](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/README/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C4.PNG?raw=true)
