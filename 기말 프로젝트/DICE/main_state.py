@@ -25,6 +25,9 @@ def Mouse(e):
 	if e.button != SDL_BUTTON_LEFT:
 		print('fuck')
 
+
+		
+
 	mousePos = e.x, e.y
 
 	print(mousePos)

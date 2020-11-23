@@ -23,3 +23,7 @@ class Dice:
         sx = self.width * fidx
         size = self.width * self.mag, self.height * self.mag
         self.image.clip_draw(sx, 0, self.width, self.height, *self.pos, *size)
+
+
+
+        
