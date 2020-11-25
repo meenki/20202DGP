@@ -23,10 +23,7 @@ def KeyDown(k):
 def Mouse(e):
 	global mousePos
 	if e.button != SDL_BUTTON_LEFT:
-		print('fuck')
-
-
-		
+		return
 
 	mousePos = e.x, e.y
 
