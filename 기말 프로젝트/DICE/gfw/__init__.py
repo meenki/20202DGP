@@ -10,6 +10,12 @@ running = True
 stack = None
 frame_interval = 0.01
 delta_time = 0
+state = 'stop'
+stagelv = 0
+coin = 0
+fastup = 1
+multiup = 1
+slowup = 1
 
 def quit():
     global running
