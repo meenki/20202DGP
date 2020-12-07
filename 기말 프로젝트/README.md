@@ -56,3 +56,14 @@
 ## 7. 개발 정보
 
 ![개발 정보](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/README/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C4.PNG?raw=true)
+
+## 8. 개발 과정
+
+![커밋 내역](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/README/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C5.png?raw=true)
+![개발 진행도](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/README/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C6.png?raw=true)
+![내부 구조](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/README/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C7.png?raw=true)
+
+## 9. 발표 영상 링크
+[1차 발표 영상](https://youtu.be/mfgA6ZmKQ3o).
+[2차 발표 영상](https://youtu.be/LtfQiaiwZL4).
+[3차 발표 영상](http://www.google.co.kr).
