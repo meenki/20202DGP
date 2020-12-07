@@ -1,6 +1,8 @@
 from pico2d import *
 import gfw
 
+LIFE_TEXT_COLOR = (0, 0, 0)
+
 class Enemy:
 	def __init__(self, lv):
 		self.pos = 57, 820
@@ -14,8 +16,7 @@ class Enemy:
 
 		self.dead = False
 
-		self.deadsound = load_wav('res/kill.wav')
-		self.deadsound.set_volume(15)
+		self.font = gfw.font.load('res/ConsolaMalgun.ttf', 15)
 
 	def update(self):
 		if gfw.state != 'start':
@@ -45,6 +46,7 @@ class Enemy:
 
 	def draw(self):
 		self.image.draw(*self.pos)
+		self.font.draw(self.pos[0] - 30, self.pos[1] + 15, '%d' % self.life, LIFE_TEXT_COLOR)
 
 	def hit(self, style, lv):
 		if self.dead:
@@ -66,4 +68,3 @@ class Enemy:
 			gfw.coin += 10
 			gfw.world.remove(self)
 			self.dead = True
-			self.deadsound.play()

@@ -44,13 +44,16 @@ def draw():
 	coin.draw(get_canvas_width() // 2 - 10, get_canvas_height()//2 - 440)
 	coin.draw(get_canvas_width() // 2 + 160, get_canvas_height()//2 - 440)
 
-	if gfw.state == 'stop' or gfw.state == 'over':
+	if gfw.state == 'stop':
 		start.draw()
 		exit.draw()
 	elif gfw.state == 'start':
 		pause.draw()
 	elif gfw.state == 'pause':
 		start.draw()
+		exit.draw()
+		restart.draw()
+	elif gfw.state == 'over':
 		exit.draw()
 		restart.draw()
 
@@ -67,11 +70,12 @@ def update():
 	pass
 
 def click(pos):
-	if gfw.state == 'stop' or gfw.state == 'over':
+	if gfw.state == 'stop':
 		if start.click(pos) != None:
 			return 'start'
 		if exit.click(pos) != None:
 			return 'exit'
+			
 	elif gfw.state == 'pause':
 		if start.click(pos) != None:
 			return 'start'
@@ -79,6 +83,13 @@ def click(pos):
 			return 'exit'
 		if restart.click(pos) != None:
 			return 'restart'
+
+	elif gfw.state == 'over':
+		if exit.click(pos) != None:
+			return 'exit'
+		if restart.click(pos) != None:
+			return 'restart'
+
 	elif gfw.state == 'start':
 		if pause.click(pos) != None:
 			return 'pause'

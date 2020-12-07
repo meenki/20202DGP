@@ -63,7 +63,7 @@ def mouse_down(e):
 
 	if message == 'start':
 		gfw.state = 'start'
-		if gfw.state == 'stop' or gfw.state == 'over':
+		if gfw.state == 'stop':
 			initgame()
 	elif message == 'pause':
 		gfw.state = 'pause'
@@ -76,22 +76,25 @@ def mouse_down(e):
 
 	if gfw.state == 'start':
 		if message == 'slowup':
+			print("slow")
 			if slowcost > gfw.coin:
 				return
 			gfw.coin -= slowcost
-			slowcost+=100 *gfw.slowup
+			slowcost += (100 * gfw.slowup)
 			gfw.slowup+=1
 		elif message == 'fastup':
+			print("fa")
 			if fastcost > gfw.coin:
 				return
 			gfw.coin -= fastcost
-			fastcost+=100 *gfw.fastup
+			fastcost += (100 * gfw.fastup)
 			gfw.fastup+=1
 		elif message == 'multiup':
+			print("mu")
 			if multicost > gfw.coin:
 				return
 			gfw.coin -= multicost
-			multicost += 100 * gfw.multiup
+			multicost += (100 * gfw.multiup)
 			gfw.multiup+=1
 		elif message == 'newdice':
 			if gfw.coin < dicecost:
@@ -164,12 +167,14 @@ def initgame():
 
 	gfw.state = 'stop'
 	gfw.stagelv = 0
+	generator.enemycount = 0
+	generator.boardstate = [0] * 25
 
 	gfw.coin = 100
 	dicecost = 10
-	gfw.fastup = 0
-	gfw.slowup = 0
-	gfw.multiup = 0
+	gfw.fastup = 1
+	gfw.slowup = 1
+	gfw.multiup = 1
 	fastcost = 100
 	slowcost = 100
 	multicost = 100
@@ -179,10 +184,10 @@ def initgame():
 
 	for d in gfw.world.objects_at(gfw.layer.dice):
 		gfw.world.remove(d)
-	for d in gfw.world.objects_at(gfw.layer.bullet):
-		gfw.world.remove(d)
-	for d in gfw.world.objects_at(gfw.layer.enemy):
-		gfw.world.remove(d)
+	for b in gfw.world.objects_at(gfw.layer.bullet):
+		gfw.world.remove(b)
+	for e in gfw.world.objects_at(gfw.layer.enemy):
+		gfw.world.remove(e)
 
 
 def fontdraw():

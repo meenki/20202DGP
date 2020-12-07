@@ -15,7 +15,7 @@ class Dice:
 		imageName = None
 		if style == 'fast':
 			imageName = 'fast'
-			self.attacksp = self.attacksp * 0.5
+			self.attacksp = self.attacksp * 0.3
 		elif style == 'slow':
 			imageName = 'slow'
 		elif style == 'multi':
