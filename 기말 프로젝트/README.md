@@ -66,4 +66,4 @@
 ## 9. 발표 영상 링크
 [1차 발표 영상](https://youtu.be/mfgA6ZmKQ3o).
 [2차 발표 영상](https://youtu.be/LtfQiaiwZL4).
-[3차 발표 영상](http://www.google.co.kr).
+[3차 발표 영상](https://youtu.be/B5aXXVR7ha4).
