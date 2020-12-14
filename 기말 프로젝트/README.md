@@ -61,7 +61,7 @@
 
 ![커밋 내역](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/README/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C5.png?raw=true)
 ![개발 진행도](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/README/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C6.png?raw=true)
-모든 리소스 스스로 
+모든 리소스 스스로 제작
 ![내부 구조](https://github.com/meenki/20202DGP/blob/master/%EA%B8%B0%EB%A7%90%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/README/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C7.png?raw=true)
 
 ## 9. 발표 영상 링크
